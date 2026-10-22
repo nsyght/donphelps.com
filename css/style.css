@@ -639,3 +639,17 @@ section {
 
   .cta-band-inner { flex-direction: column; text-align: center; }
 }
+
+/* ─── Hero photo ─── */
+.hero-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: center; }
+.hero-photo img { width: 100%; max-width: 400px; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); border: 1px solid var(--border); box-shadow: 0 24px 60px -20px var(--accent-glow); display: block; margin-left: auto; }
+@media (max-width: 768px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+  .hero-photo { order: -1; }
+  .hero-photo img { max-width: 200px; margin: 0; border-radius: 50%; }
+}
+@media (max-width: 768px) {
+  /* Stack inline two-column grids on phones */
+  [style*="grid-template-columns: 1fr 1fr"],
+  [style*="grid-template-columns: 2fr 1fr"] { grid-template-columns: 1fr !important; gap: 32px !important; }
+}
