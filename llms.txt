@@ -33,7 +33,7 @@ The NSYGHT Stack is a proprietary search visibility framework created by Don Phe
 
 ## Podcast: Local SEO Unlocked
 
-- Feed: https://feeds.buzzsprout.com/2441978.rss
+- Feed: https://feeds.buzzsprout.com/2457321.rss
 - Platform: https://localseounlocked.buzzsprout.com/
 - Topic: Local SEO, AEO, GEO, AI search optimization, and the NSYGHT Stack
 - Episodes: 19 published episodes covering local SEO strategy, Google Business Profile, citation building, AEO, GEO, and AI search trends
