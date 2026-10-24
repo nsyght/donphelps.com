@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
     <loc>https://donphelps.com/</loc>
     <lastmod>2024-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/"/>
   </url>
 
   <url>
@@ -13,6 +27,19 @@
     <lastmod>2024-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/sobre-mi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/about/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/sobre-mi/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/sobre-mi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/about/"/>
   </url>
 
   <url>
@@ -20,6 +47,19 @@
     <lastmod>2024-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/expertise/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/especialidades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/expertise/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/especialidades/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/expertise/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/especialidades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/expertise/"/>
   </url>
 
   <url>
@@ -27,6 +67,19 @@
     <lastmod>2024-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/podcast/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/podcast/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/podcast/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/podcast/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/podcast/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/podcast/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/podcast/"/>
   </url>
 
   <url>
@@ -34,6 +87,19 @@
     <lastmod>2024-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/youtube/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/youtube/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/youtube/"/>
   </url>
 
   <url>
@@ -41,6 +107,19 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/blog/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/"/>
   </url>
 
   <url>
@@ -48,6 +127,19 @@
     <lastmod>2024-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/conferencias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/speaking/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/conferencias/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/conferencias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/speaking/"/>
   </url>
 
   <url>
@@ -55,6 +147,19 @@
     <lastmod>2024-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/contact/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/contacto/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/contact/"/>
   </url>
 
   <url>
@@ -62,6 +167,19 @@
     <lastmod>2024-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/ai-instructions/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/instrucciones-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/ai-instructions/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/instrucciones-ia/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/ai-instructions/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/instrucciones-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/ai-instructions/"/>
   </url>
 
   <url>
@@ -69,6 +187,19 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/building-an-seo-department-from-scratch/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/crear-un-departamento-de-seo-desde-cero/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/building-an-seo-department-from-scratch/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/blog/crear-un-departamento-de-seo-desde-cero/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/building-an-seo-department-from-scratch/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/crear-un-departamento-de-seo-desde-cero/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/building-an-seo-department-from-scratch/"/>
   </url>
 
   <url>
@@ -76,6 +207,19 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/seo-across-eight-industries/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/seo-en-ocho-industrias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/seo-across-eight-industries/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/blog/seo-en-ocho-industrias/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/seo-across-eight-industries/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/seo-en-ocho-industrias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/seo-across-eight-industries/"/>
   </url>
 
   <url>
@@ -83,6 +227,19 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/military-lessons-marketing-leadership/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/lecciones-del-ejercito-para-liderar-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/military-lessons-marketing-leadership/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/blog/lecciones-del-ejercito-para-liderar-marketing/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/military-lessons-marketing-leadership/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/lecciones-del-ejercito-para-liderar-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/military-lessons-marketing-leadership/"/>
   </url>
 
   <url>
@@ -90,6 +247,19 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/seo-isnt-dead-lazy-seo-is/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/el-seo-no-esta-muerto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/seo-isnt-dead-lazy-seo-is/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/blog/el-seo-no-esta-muerto/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/blog/seo-isnt-dead-lazy-seo-is/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/blog/el-seo-no-esta-muerto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/seo-isnt-dead-lazy-seo-is/"/>
   </url>
 
 </urlset>
