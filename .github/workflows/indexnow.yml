@@ -1,0 +1,43 @@
+name: IndexNow ping
+
+# Pings IndexNow (Bing, Yandex, Seznam, Naver and others) with any pages
+# changed in a push to main, so new and updated pages get crawled fast.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Wait for Netlify deploy
+        run: sleep 90
+
+      - name: Collect changed URLs
+        id: urls
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            files=$(git ls-files '*.html')
+          else
+            files=$(git diff --name-only HEAD~1 HEAD -- '*.html' || true)
+          fi
+          urls=""
+          for f in $files; do
+            [ -f "$f" ] || continue
+            p="${f%index.html}"
+            urls="$urls\"https://donphelps.com/$p\","
+          done
+          echo "list=[${urls%,}]" >> "$GITHUB_OUTPUT"
+
+      - name: Ping IndexNow
+        if: steps.urls.outputs.list != '[]'
+        run: |
+          curl -sS -o /dev/null -w "IndexNow status: %{http_code}\n" \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{"host":"donphelps.com","key":"b6d3660d6ea727b00316065c6edbe985","keyLocation":"https://donphelps.com/b6d3660d6ea727b00316065c6edbe985.txt","urlList":${{ steps.urls.outputs.list }}}'
