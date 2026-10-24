@@ -653,3 +653,7 @@ section {
   [style*="grid-template-columns: 1fr 1fr"],
   [style*="grid-template-columns: 2fr 1fr"] { grid-template-columns: 1fr !important; gap: 32px !important; }
 }
+
+/* ─── Language switcher ─── */
+.nav-links a.lang-switch { border: 1px solid var(--border); border-radius: var(--radius); padding: 4px 10px; font-weight: 600; letter-spacing: 0.06em; }
+.nav-links a.lang-switch:hover { border-color: var(--accent); color: var(--accent); }
