@@ -262,4 +262,157 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/blog/seo-isnt-dead-lazy-seo-is/"/>
   </url>
 
+  <url>
+    <loc>https://donphelps.com/local-seo-checklist/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/local-seo-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/lista-seo-local/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/local-seo-checklist/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/es/lista-seo-local/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://donphelps.com/local-seo-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://donphelps.com/es/lista-seo-local/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donphelps.com/local-seo-checklist/"/>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/local-seo-proximity-relevance-prominence-entities/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/google-local-search-algorithm-party-rentals/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/seo-basics-website-ranking-tips/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/branded-search-optimization-strategy/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/realistic-seo-timelines-expectations/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/entity-based-local-seo-strategy/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/brand-knowledge-graph-schema-markup/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/seo-identity-offerings-location-framework/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/eeat-seo-content-trust-signals/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/seo-vanity-metrics-real-kpis/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/google-ranking-factors-seo-fundamentals/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/quality-backlinks-relevance-trust-flow/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/answer-engine-optimization-aeo-explained/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/generative-engine-optimization-geo-ai-citations/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/aeo-vs-geo-ai-search-strategy/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/aio-ai-optimization-what-still-works/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/seo-aeo-geo-aio-differences-explained/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/llms-txt-file-guide-ai-models/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://donphelps.com/podcast/generative-engine-optimization-ai-friendly-content/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>

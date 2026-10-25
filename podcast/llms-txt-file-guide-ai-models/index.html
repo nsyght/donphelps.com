@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT6FKHHKP5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KT6FKHHKP5');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLMS.txt: The Secret Map for Teaching AI to Understand Your Website - Local SEO Unlocked Ep. 18</title>
+  <meta name="description" content="What an llms.txt file is, how it guides ChatGPT, Claude and Gemini to your key pages, how to set one up, and the common mistakes that keep it from working.">
+  <link rel="canonical" href="https://donphelps.com/podcast/llms-txt-file-guide-ai-models/">
+
+  <meta property="og:title" content="LLMS.txt: The Secret Map for Teaching AI to Understand Your Website - Local SEO Unlocked Ep. 18">
+  <meta property="og:description" content="What an llms.txt file is, how it guides ChatGPT, Claude and Gemini to your key pages, how to set one up, and the common mistakes that keep it from working.">
+  <meta property="og:url" content="https://donphelps.com/podcast/llms-txt-file-guide-ai-models/">
+  <meta property="og:image" content="https://donphelps.com/images/don-phelps-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Don Phelps, The SEO Guru">
+  <meta name="twitter:image" content="https://donphelps.com/images/don-phelps-og.jpg">
+  <meta property="og:type" content="article">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LLMS.txt: The Secret Map for Teaching AI to Understand Your Website - Local SEO Unlocked Ep. 18">
+  <meta name="twitter:description" content="What an llms.txt file is, how it guides ChatGPT, Claude and Gemini to your key pages, how to set one up, and the common mistakes that keep it from working.">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <style>
+    .post { max-width: 760px; }
+    .post-meta { display:flex; flex-wrap:wrap; align-items:center; gap:14px; margin-top:24px; color:var(--fg-muted); font-size:0.9rem; }
+    .post-meta img { width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid var(--accent); }
+    .post-body p, .post-body li { color:var(--fg-muted); line-height:1.85; font-size:1.0625rem; }
+    .post-body p { margin-bottom:20px; }
+    .post-body .lede { color:var(--fg); font-size:1.15rem; }
+    .post-body h2 { font-family:var(--font-display); font-size:2rem; letter-spacing:0.02em; color:var(--fg); margin:44px 0 16px; line-height:1.1; }
+    .post-body ul { margin:0 0 24px 20px; display:flex; flex-direction:column; gap:10px; }
+    .post-body strong { color:var(--fg); }
+    .author-box { display:flex; gap:24px; align-items:center; margin-top:56px; padding:28px; background:var(--bg-2); border:1px solid var(--border); border-radius:var(--radius-lg); }
+    .author-box img { width:96px; height:96px; border-radius:50%; object-fit:cover; flex-shrink:0; }
+    .author-box h3 { color:var(--fg); margin-bottom:6px; font-size:1.1rem; }
+    .author-box p { color:var(--fg-muted); font-size:0.95rem; line-height:1.7; margin:0; }
+    @media (max-width: 600px) { .author-box { flex-direction:column; text-align:center; } }
+
+    .ep-audio { width: 100%; margin: 8px 0 32px; }
+    .ep-nav { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 0.95rem; }
+    .transcript { margin-top: 48px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--bg-2); }
+    .transcript summary { cursor: pointer; padding: 18px 24px; font-weight: 700; color: var(--fg); }
+    .transcript .t-body { padding: 0 24px 24px; max-height: 70vh; overflow-y: auto; }
+    .transcript .t-body p { font-size: 0.95rem; margin-bottom: 14px; }
+    .transcript .spk { font-weight: 700; color: var(--accent); margin-right: 6px; }
+    .faq-item h3 { font-size: 1.1rem; color: var(--fg); margin: 24px 0 8px; font-weight: 700; }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://donphelps.com/podcast/llms-txt-file-guide-ai-models/#episode",
+      "url": "https://donphelps.com/podcast/llms-txt-file-guide-ai-models/",
+      "name": "LLMS.txt: The Secret Map for Teaching AI to Understand Your Website",
+      "episodeNumber": 18,
+      "datePublished": "2025-07-07",
+      "timeRequired": "PT14M3S",
+      "description": "This episode explains the llms.txt file, a plain text Markdown file in a site's root directory that hands AI models a curated list of a site's most important pages. It covers why AI tools need that guidance, how to create and upload the file, the benefits, best practices and the mistakes to avoid.",
+      "inLanguage": "en",
+      "associatedMedia": {
+        "@type": "MediaObject",
+        "contentUrl": "https://www.buzzsprout.com/2457321/episodes/17459346-llms-txt-the-secret-map-for-teaching-ai-to-understand-your-website.mp3"
+      },
+      "partOfSeries": {
+        "@id": "https://donphelps.com/podcast/#podcast"
+      },
+      "author": {
+        "@id": "https://donphelps.com/#don-phelps"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://donphelps.com/podcast/llms-txt-file-guide-ai-models/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an llms.txt file?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An llms.txt file is a lightweight plain text file written in Markdown that lives in your website's root directory. It gives AI models like ChatGPT, Claude and Gemini a curated list of your most important pages so they understand your site better."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is llms.txt different from robots.txt and sitemap.xml?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Robots.txt sets rules for traditional search engine crawlers, and sitemap.xml lists all of your URLs for search engines. Llms.txt is a hand-picked list of key pages written for AI tools. It complements the other two files and does not replace them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do AI models actually use llms.txt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not every AI tool honors it yet, but many leading models are beginning to or are expected to. It does not directly affect Google rankings, but setting it up early helps AI represent your brand more accurately."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://donphelps.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Podcast",
+          "item": "https://donphelps.com/podcast/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "LLMS.txt: The Secret Map for Teaching AI to Understand Your Website",
+          "item": "https://donphelps.com/podcast/llms-txt-file-guide-ai-models/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+    <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">Don <span>Phelps</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect y="4" width="22" height="2" fill="currentColor"/><rect y="10" width="22" height="2" fill="currentColor"/><rect y="16" width="22" height="2" fill="currentColor"/></svg>
+      </button>
+      <ul class="nav-links" role="list">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/expertise/">Expertise</a></li>
+        <li><a href="/podcast/" style="color: var(--accent);">Podcast</a></li>
+        <li><a href="/youtube/">YouTube</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/es/podcast/" class="lang-switch" hreflang="es" lang="es" title="Leer en español">ES</a></li>
+        <li><a href="/contact/" class="nav-cta">Work Together</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main>
+    <section class="page-hero">
+      <div class="container post">
+        <p class="section-eyebrow"><a href="/podcast/">Local SEO Unlocked</a> / Episode 18</p>
+        <h1>LLMS.txt: The Secret Map for Teaching AI to Understand Your Website</h1>
+        <div class="post-meta">
+          <img src="/images/don-phelps.jpg" alt="Don Phelps" width="44" height="44">
+          <span><a href="/podcast/">Local SEO Unlocked</a></span>
+          <span>&middot;</span>
+          <time datetime="2025-07-07">July 7, 2025</time>
+          <span>&middot;</span>
+          <span>14 min listen</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container post">
+        <audio class="ep-audio" controls preload="none" src="https://www.buzzsprout.com/2457321/episodes/17459346-llms-txt-the-secret-map-for-teaching-ai-to-understand-your-website.mp3">Your browser does not support audio playback. <a href="https://www.buzzsprout.com/2457321/episodes/17459346-llms-txt-the-secret-map-for-teaching-ai-to-understand-your-website">Listen on Buzzsprout</a>.</audio>
+        <article class="post-body">
+<p class="lede">This episode explains the llms.txt file, a plain text Markdown file in a site&#x27;s root directory that hands AI models a curated list of a site&#x27;s most important pages. It covers why AI tools need that guidance, how to create and upload the file, the benefits, best practices and the mistakes to avoid.</p>
+
+<h2>Key takeaways</h2>
+<ul>
+<li>AI tools often fetch content in real time with a short memory and no stored index, and they can stumble on complex HTML or heavy JavaScript. An llms.txt file points them straight to your most valuable pages.</li>
+<li>Structure each entry as a clean URL with a descriptive title in Markdown, plus an optional short description, and group entries under clear section headings like tutorials, products and about us.</li>
+<li>Keep the list focused on your most important pages. Leave out login pages, duplicate content, outdated pages and anything sensitive or internal.</li>
+<li>Name the file exactly llms.txt, place it in the root directory rather than a subfolder, save it with standard text encoding and double-check the Markdown syntax, since small errors can make it unreadable.</li>
+<li>For most sites, an automated generator, SEO plugin or host feature is safer and faster than writing and updating the file by hand.</li>
+<li>Test the file by asking ChatGPT or Gemini questions about your site and checking whether the answers reflect your guidance, and update it whenever your content changes.</li>
+</ul>
+
+<h2>Questions this episode answers</h2>
+<div class="faq-item"><h3>What is an llms.txt file?</h3><p>An llms.txt file is a lightweight plain text file written in Markdown that lives in your website&#x27;s root directory. It gives AI models like ChatGPT, Claude and Gemini a curated list of your most important pages so they understand your site better.</p></div>
+<div class="faq-item"><h3>How is llms.txt different from robots.txt and sitemap.xml?</h3><p>Robots.txt sets rules for traditional search engine crawlers, and sitemap.xml lists all of your URLs for search engines. Llms.txt is a hand-picked list of key pages written for AI tools. It complements the other two files and does not replace them.</p></div>
+<div class="faq-item"><h3>Do AI models actually use llms.txt?</h3><p>Not every AI tool honors it yet, but many leading models are beginning to or are expected to. It does not directly affect Google rankings, but setting it up early helps AI represent your brand more accurately.</p></div>
+
+<p>Listen on <a href="https://www.buzzsprout.com/2457321/episodes/17459346-llms-txt-the-secret-map-for-teaching-ai-to-understand-your-website" target="_blank" rel="noopener">Buzzsprout</a>, <a href="https://open.spotify.com/show/11kVGASFJ0SVtIOttszA9p" target="_blank" rel="noopener">Spotify</a>, <a href="https://podcasts.apple.com/us/podcast/local-seo-unlocked/id1892876171" target="_blank" rel="noopener">Apple Podcasts</a>, or <a href="https://music.amazon.com/podcasts/3c17ad32-1460-47f9-861f-e7ec3ee03d12" target="_blank" rel="noopener">Amazon Music</a>.</p>
+        </article>
+
+        <details class="transcript">
+          <summary>Read the full transcript</summary>
+          <div class="t-body post-body">
+            <p><span class="spk">Speaker 1:</span>The rise of AI has been well, absolutely incredible, hasn&#x27;t it?</p>
+            <p><span class="spk">Speaker 2:</span>Oh, definitely.</p>
+            <p><span class="spk">Speaker 1:</span>It&#x27;s really reshaping how we find information, how we interact online Completely. But you know, for anyone with a website, any online presence, it raises a big question how do we make sure these AI models actually understand our content, the stuff we put out there?</p>
+            <p><span class="spk">Speaker 2:</span>Yeah, how do you guide them, make sure they get it right?</p>
+            <p><span class="spk">Speaker 1:</span>Exactly how do you stop them misinterpreting your site?</p>
+            <p><span class="spk">Speaker 2:</span>It&#x27;s a real challenge.</p>
+            <p><span class="spk">Speaker 1:</span>So today we&#x27;re diving deep into something that sounds simple but is actually pretty powerful for tackling this. It&#x27;s the lmstxt file.</p>
+            <p><span class="spk">Speaker 2:</span>Ah yes, the newcomer on the block.</p>
+            <p><span class="spk">Speaker 1:</span>We&#x27;re going to unpack what it is, why it&#x27;s becoming so important and really how it gives you, the listener, more control in this age of generative AI.</p>
+            <p><span class="spk">Speaker 2:</span>It&#x27;s crucial too, because AI tools they don&#x27;t work quite like the old search engines do they.</p>
+            <p><span class="spk">Speaker 1:</span>Right, that&#x27;s a key point.</p>
+            <p><span class="spk">Speaker 2:</span>They often grab info more in real time, like when someone asks a question. They don&#x27;t always have that deep stored index Google built over time.</p>
+            <p><span class="spk">Speaker 1:</span>So the old rules don&#x27;t always apply.</p>
+            <p><span class="spk">Speaker 2:</span>Not entirely, and that&#x27;s why new things like LMStxt are becoming essential. So, yeah, our mission today give you the shortcut to understanding this thing.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, let&#x27;s start right at the beginning. What is an LLMStxt file?</p>
+            <p><span class="spk">Speaker 2:</span>fundamentally, Okay, so at its heart it&#x27;s really just a lightweight plain text document.</p>
+            <p><span class="spk">Speaker 1:</span>Plain text Simple enough.</p>
+            <p><span class="spk">Speaker 2:</span>Yeah, and it&#x27;s written in Markdown, which, if you haven&#x27;t used it, it&#x27;s just a super simple way to format text Easy for people to read, easy for machines.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, and its job.</p>
+            <p><span class="spk">Speaker 2:</span>Its main job is to help the large language models you know ChatGPT, claude Gemini. Those guys understand your website better.</p>
+            <p><span class="spk">Speaker 1:</span>By giving them a list.</p>
+            <p><span class="spk">Speaker 2:</span>Exactly A curated list of your most important pager, a kind of cheat sheet for your site.</p>
+            <p><span class="spk">Speaker 1:</span>Right Now. If you&#x27;ve dealt with websites, that might ring a bell. Sounds a bit like robotstxt.</p>
+            <p><span class="spk">Speaker 2:</span>You&#x27;re definitely on the right track. It serves a similar kind of guiding purpose. Yeah, but, different, but different. Robotstxt is for traditional search engine crawlers, telling them where they can and can&#x27;t go. Lmstxt is specifically for these AI tools that fetch content more dynamically.</p>
+            <p><span class="spk">Speaker 1:</span>And where does it live on the site.</p>
+            <p><span class="spk">Speaker 2:</span>Usually right in the root directory, so you know your dash websitecom, llmstxt and AI could potentially find it there, or you could even check yourself.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, interesting. So why is this suddenly so important? Why the buzz?</p>
+            <p><span class="spk">Speaker 2:</span>Well, it gets down to how these AI models work, or rather their limitations. They&#x27;re smart, but they often have a pretty short memory when they&#x27;re browsing.</p>
+            <p><span class="spk">Speaker 1:</span>Short memory.</p>
+            <p><span class="spk">Speaker 2:</span>Yeah, they don&#x27;t typically crawl and index your entire site and remember it all, like Google does.</p>
+            <p><span class="spk">Speaker 1:</span>They often just dip in for a specific user query okay, so they grab what they need in might miss other stuff exactly, and they can easily get tripped up by complex HTML or sites heavy on JavaScript things a human might navigate easily so without some guidance, important pages might just get ignored or misinterpreted yeah even if they look fine to us. That&#x27;s the core problem this tries to solve so lmstxt steps in like a like a guide precisely.</p>
+            <p><span class="spk">Speaker 2:</span>It&#x27;s like your site&#x27;s concise, easy to read map specifically for these quick ai visits okay, and how does it help practically? Well, it directly points the ai to your key urls, your most valuable content.</p>
+            <p><span class="spk">Speaker 1:</span>So better understanding of site structure.</p>
+            <p><span class="spk">Speaker 2:</span>Definitely improves that and, crucially, it can also help prevent the AI from grabbing stuff you don&#x27;t want it to see.</p>
+            <p><span class="spk">Speaker 1:</span>Like what.</p>
+            <p><span class="spk">Speaker 2:</span>Maybe proprietary information or old outdated pages, irrelevant sections you get to choose.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, that makes sense. It&#x27;s part of that bigger trend right.</p>
+            <p><span class="spk">Speaker 2:</span>Yeah.</p>
+            <p><span class="spk">Speaker 1:</span>Generative engine optimization GEO.</p>
+            <p><span class="spk">Speaker 2:</span>Exactly, it&#x27;s a core piece of GEO optimizing specifically for how these generative AI models find and use information.</p>
+            <p><span class="spk">Speaker 1:</span>So boiling it down for you listening. This file gives you real power, doesn&#x27;t it?</p>
+            <p><span class="spk">Speaker 2:</span>It really does.</p>
+            <p><span class="spk">Speaker 1:</span>Power to shape how AI sees your brand, your content. You get direct control over what shows up in those AI answers.</p>
+            <p><span class="spk">Speaker 2:</span>Which is becoming increasingly important as more people use AI for search and information gathering. It ensures your site acts like a good ambassador, not just a random source.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, let&#x27;s look under the hood. What does one actually look like? What&#x27;s the structure?</p>
+            <p><span class="spk">Speaker 2:</span>It&#x27;s remarkably simple actually.</p>
+            <p><span class="spk">Speaker 1:</span>Yeah.</p>
+            <p><span class="spk">Speaker 2:</span>Each item is basically just a clean URL, the web address. Right Then yeah. Each item is basically just a clean URL, the web address Right, then a descriptive title for that page.</p>
+            <p><span class="spk">Speaker 1:</span>Make it clear what it is.</p>
+            <p><span class="spk">Speaker 2:</span>Exactly, and then optionally you can add a bit more context, a short description for extra clarity for the AI.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, can we see an example?</p>
+            <p><span class="spk">Speaker 2:</span>Sure, the source material had a good basic one. Let me read it out roughly it uses markdown formatting. Okay, it might start with a comment line like hashtag your-websitecom sample file, then maybe sections like hashtag tag posts.</p>
+            <p><span class="spk">Speaker 1:</span>Using the double hash for a heading.</p>
+            <p><span class="spk">Speaker 2:</span>Right and under that maybe a bullet point like hello world dot. Https dot your website dot com. Hello dash world. Welcome to WordPress. This is your first post.</p>
+            <p><span class="spk">Speaker 1:</span>So square brackets for the title, parentheses for the URL, then a colon in the description.</p>
+            <p><span class="spk">Speaker 2:</span>Exactly, and you might have another section, hashtag tag pages with something like privacy policy HTPSyour-websitecom for privacy-policy Learn how we handle your data. Super simple structure and, as we said, you, the listener, could literally try this. Go to a website you know. Add llmtxt to the end of the main address in your browser.</p>
+            <p><span class="spk">Speaker 1:</span>And if they have one.</p>
+            <p><span class="spk">Speaker 2:</span>You&#x27;ll see it right there. It&#x27;s becoming more common.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, so how do you get one onto your site? Let&#x27;s say you want to do this.</p>
+            <p><span class="spk">Speaker 2:</span>Well, there&#x27;s the manual way.</p>
+            <p><span class="spk">Speaker 1:</span>Right, just type it out.</p>
+            <p><span class="spk">Speaker 2:</span>Yeah, write it using that markdown syntax. We just saw Save the file literally as llmstxt.</p>
+            <p><span class="spk">Speaker 1:</span>Got to get the name right.</p>
+            <p><span class="spk">Speaker 2:</span>Absolutely llmstxt. Then upload it to your website&#x27;s root directory. Often that&#x27;s a folder like var wetl on the server. Okay that sounds doable, but maybe a bit technical for some. Well, it can be. Thankfully, there are automated options popping up.</p>
+            <p><span class="spk">Speaker 1:</span>Like what.</p>
+            <p><span class="spk">Speaker 2:</span>There are specific tools like WordLift. Has an LLMStxt generator.</p>
+            <p><span class="spk">Speaker 1:</span>Okay.</p>
+            <p><span class="spk">Speaker 2:</span>And some WordPress plugins are getting in on it. Yoast SEO, for example, is starting to offer features for this.</p>
+            <p><span class="spk">Speaker 1:</span>Ah, so if you use WordPress, your SEO plugin might handle it Increasingly.</p>
+            <p><span class="spk">Speaker 2:</span>Yes, or dedicated plugins might appear, and some hosts, like Hostinger, are apparently building it into maybe a toggle in their tools or auto generation.</p>
+            <p><span class="spk">Speaker 1:</span>That&#x27;s handy.</p>
+            <p><span class="spk">Speaker 2:</span>Yeah, and of course you can always use standard tools like FileZilla, you know, ftp or SFTP clients to upload the file manually, if you prefer.</p>
+            <p><span class="spk">Speaker 1:</span>But the manual way.</p>
+            <p><span class="spk">Speaker 2:</span>Yeah.</p>
+            <p><span class="spk">Speaker 1:</span>You mentioned challenges.</p>
+            <p><span class="spk">Speaker 2:</span>Oh yeah, it sounds easy, but there are pitfalls Like Well, the markdown formatting has to be exactly right, no wiggle room.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, syntax errors break it.</p>
+            <p><span class="spk">Speaker 2:</span>Pretty much, and if your site content changes a lot new blog posts, updated pages you have to remember to update the file manually.</p>
+            <p><span class="spk">Speaker 1:</span>Constantly. That could updated pages.</p>
+            <p><span class="spk">Speaker 2:</span>You have to remember to update the file manually constantly. That could be a pain. It really can be. Plus, the location is critical. It must be in the root directory and not a subfolder easy mistake to make very easy and in coding matters it needs to be UTF 8. 
+And maybe the biggest headache there&#x27;s no standard central way to check if it&#x27;s valid no validator to not really a universal one yet, so you often have to test it yourself, maybe by asking an AI about your site and seeing if it seems to use the info correctly. It&#x27;s not foolproof. Right, so the takeaway is For most people, honestly, using an automated tool or a plugin is probably the safer, more reliable and definitely more time efficient way to go.</p>
+            <p><span class="spk">Speaker 1:</span>Makes sense. Let the tools handle the tricky bits.</p>
+            <p><span class="spk">Speaker 2:</span>Exactly. They usually get the formatting and placement right automatically.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, let&#x27;s talk benefits. Why should someone listening go to the trouble, even with a tool? What&#x27;s the payoff for your website?</p>
+            <p><span class="spk">Speaker 2:</span>There are some really solid advantages, big ones.</p>
+            <p><span class="spk">Speaker 1:</span>Lay them out for us.</p>
+            <p><span class="spk">Speaker 2:</span>Okay, first, brand accuracy. This file helps ensure the AI actually understands and represents your business, your brand voice, correctly. Less chance of weird summaries. Okay, accuracy, Good. What else? Visibility, but targeted visibility. It highlights the key stuff your best tutorials, your main product pages, your FAQs, the things you really want AI to find and share.</p>
+            <p><span class="spk">Speaker 1:</span>Right Cuts through the noise.</p>
+            <p><span class="spk">Speaker 2:</span>Exactly, which leads to reduced confusion. The AI gets a clear signal about what&#x27;s important and relevant. Less confusion for the AI means better, more accurate answers for users asking about you.</p>
+            <p><span class="spk">Speaker 1:</span>That sounds critical.</p>
+            <p><span class="spk">Speaker 2:</span>It is. Then there&#x27;s future-proofing You&#x27;re basically getting your site ready for how more and more people are going to discover content through AI. It&#x27;s happening now.</p>
+            <p><span class="spk">Speaker 1:</span>Being proactive.</p>
+            <p><span class="spk">Speaker 2:</span>And finally, selective disclosure. This is huge. You control what the AI sees. You can keep it away from pages that are outdated, maybe internal only or just not ready for prime time.</p>
+            <p><span class="spk">Speaker 1:</span>So real control over the AI&#x27;s view of your site.</p>
+            <p><span class="spk">Speaker 2:</span>That&#x27;s the essence of it Control and clarity.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, and to make the most of those benefits, are there best practices, things to keep in mind when you&#x27;re setting it up?</p>
+            <p><span class="spk">Speaker 2:</span>Definitely A few key things.</p>
+            <p><span class="spk">Speaker 1:</span>Go on.</p>
+            <p><span class="spk">Speaker 2:</span>First, keep the list focused. Don&#x27;t just dump your entire site map in there. Pick the most important pages. Resist adding clutter.</p>
+            <p><span class="spk">Speaker 1:</span>Quality over quantity.</p>
+            <p><span class="spk">Speaker 2:</span>Exactly. Use short, clear, descriptive titles for each URL. Make it obvious what the page is about.</p>
+            <p><span class="spk">Speaker 1:</span>Like good signposting.</p>
+            <p><span class="spk">Speaker 2:</span>Perfect analogy. Also group links into logical sections using those markdown headings. Hashtag tag tutorials. Hashtag tag tutorials. Hashtag tag products. Hashtag tag about us. Helps the AI understand the relationships.</p>
+            <p><span class="spk">Speaker 1:</span>Structure matters.</p>
+            <p><span class="spk">Speaker 2:</span>It does, and be explicit about what not to include. Login pages, duplicate content pages, sensitive stuff Reinforces that selective disclosure benefit Right.</p>
+            <p><span class="spk">Speaker 1:</span>Keep it clean.</p>
+            <p><span class="spk">Speaker 2:</span>And finally test it. Don&#x27;t just set it and forget it. Use tools like ChatGPT or Gemini. Ask them questions about your site and see if the answers reflect the guidance you&#x27;ve provided in your LMStxt.</p>
+            <p><span class="spk">Speaker 1:</span>Check that it&#x27;s actually working as intended.</p>
+            <p><span class="spk">Speaker 2:</span>Yeah, it&#x27;s the only way to be sure.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, this is super helpful, but you mentioned robotstxt earlier and people know about sitemapxml. It could get confusing. Can we clarify the differences? Where does LMStxt fit?</p>
+            <p><span class="spk">Speaker 2:</span>Absolutely. It&#x27;s easy to mix them up, but they have distinct jobs. Think of it like this, like a little table in your mind.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, give us the columns.</p>
+            <p><span class="spk">Speaker 2:</span>Right LMStxt purpose guide, ai models, format markdown, content, key URLs, maybe with context audience AI tools Got it Next. Robotstxt purpose guide. Search engine crawlers, the traditional ones format plain text content. Rules all your URLs, often with extra metadata like update frequency, audience also search engines.</p>
+            <p><span class="spk">Speaker 1:</span>So lmstxt is curated. Robloxtxt is rules. Sitemapxml is exhaustive.</p>
+            <p><span class="spk">Speaker 2:</span>That&#x27;s a great way to put it lmstxt is your hand-picked highlight reel for AI.</p>
+            <p><span class="spk">Speaker 1:</span>Right, and it&#x27;s not yet universally adopted by every AI. Out there is it, but the big ones are starting.</p>
+            <p><span class="spk">Speaker 2:</span>That&#x27;s the current state. Many leading models are beginning to honor it or are expected to. It&#x27;s definitely the direction things are heading. It complements your existing SEO efforts like sitemaps and robotstxt, but doesn&#x27;t directly replace them or impact, say, Google&#x27;s ranking directly.</p>
+            <p><span class="spk">Speaker 1:</span>yet Okay, and you touched on this, but just to reinforce why do LLMs sometimes mess up reading websites, even if they look fine to us?</p>
+            <p><span class="spk">Speaker 2:</span>Yeah, it comes back to those core differences. Their short memory windows mean they might not see the whole picture. They might miss the overall link structure if it&#x27;s not immediately obvious. Cluttered layouts or complex JavaScript can confuse them during that quick real-time fetch. They don&#x27;t have that pre-built index to fall back on like a traditional search engine does.</p>
+            <p><span class="spk">Speaker 1:</span>So it&#x27;s the speed and the lack of stored context basically.</p>
+            <p><span class="spk">Speaker 2:</span>Largely yes, which is why sites with lots of valuable specific content blogs, docs, FAQs, tutorials, e-commerce product details benefit most. That&#x27;s the kind of stuff that needs clear signposting for a quick AI visit.</p>
+            <p><span class="spk">Speaker 1:</span>Gotcha, and quickly, any common mistakes people make when trying to implement this. Things to absolutely avoid.</p>
+            <p><span class="spk">Speaker 2:</span>Oh yeah, definitely a few common trip-ups.</p>
+            <p><span class="spk">Speaker 1:</span>Hit us with them.</p>
+            <p><span class="spk">Speaker 2:</span>Using the wrong file name is a big one. Typing llmtxt instead of llmtxt plural as is key.</p>
+            <p><span class="spk">Speaker 1:</span>Easy typo.</p>
+            <p><span class="spk">Speaker 2:</span>Very. Uploading it to the wrong directory, putting it in a subfolder instead of the main root. Ai won&#x27;t find it there, location, location, location. Absolutely Including broken links or links to pages that are outdated or gone. That just misleads the AI.</p>
+            <p><span class="spk">Speaker 1:</span>Keep it current.</p>
+            <p><span class="spk">Speaker 2:</span>And messing up the markdown syntax using the wrong symbols, forgetting a parenthesis that can make the whole file unreadable to the AI.</p>
+            <p><span class="spk">Speaker 1:</span>So details matter. Get those right and you avoid the main problems.</p>
+            <p><span class="spk">Speaker 2:</span>Pretty much Attention to detail pays off here.</p>
+            <p><span class="spk">Speaker 1:</span>Okay, this has been incredibly clarifying.</p>
+            <p><span class="spk">Speaker 2:</span>Good. The core takeaway really is this LOM is txt. It might seem small, just a text file, but it&#x27;s actually a really powerful strategic tool now in this age of AI search.</p>
+            <p><span class="spk">Speaker 1:</span>It&#x27;s about taking control, isn&#x27;t it?</p>
+            <p><span class="spk">Speaker 2:</span>It&#x27;s about being proactive.</p>
+            <p><span class="spk">Speaker 1:</span>Yeah.</p>
+            <p><span class="spk">Speaker 2:</span>Taking control of how your information is understood and presented by AI.</p>
+            <p><span class="spk">Speaker 1:</span>So final thought then, for you listening, if your goal is to really shape how AI sees your content, how it surfaces information about you, implementing LMStxt now, even though it&#x27;s still evolving, it, gives you a real strategic edge, doesn&#x27;t it?</p>
+            <p><span class="spk">Speaker 2:</span>Absolutely. As AI use grows and it&#x27;s growing fast getting this in place early means better visibility for the right things, more accurate representation of your brand or content.</p>
+            <p><span class="spk">Speaker 1:</span>Better performance overall in this new landscape.</p>
+            <p><span class="spk">Speaker 2:</span>Exactly. It positions you well for the future of search.</p>
+            <p><span class="spk">Speaker 1:</span>So the final challenge for you, listening, is think about your own site, your own content. How could this apply? What are those absolutely crucial pages on your website that you&#x27;d want any AI to understand perfectly first time, every time?</p>
+            <p><span class="spk">Speaker 2:</span>That&#x27;s the question to ponder what&#x27;s on your highlight reel?</p>
+          </div>
+        </details>
+
+        <div class="ep-nav"><a href="/podcast/seo-aeo-geo-aio-differences-explained/">&larr; Episode 17</a><a href="/podcast/generative-engine-optimization-ai-friendly-content/">Episode 19 &rarr;</a></div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-name">Don <span>Phelps</span></div>
+          <p class="footer-tagline">The SEO Guru. Local SEO, AEO, and GEO strategy for businesses that want to win in search.</p>
+          <div class="social-links" style="margin-top: 20px;">
+            <a href="https://www.linkedin.com/in/donphelpsseo/" class="social-link" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.youtube.com/@donphelpsseo" class="social-link" target="_blank" rel="noopener">YouTube</a>
+            <a href="https://localseounlocked.buzzsprout.com/" class="social-link" target="_blank" rel="noopener">Podcast</a>
+            <a href="https://nsyght.com/" class="social-link" target="_blank" rel="noopener">NSYGHT</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="/about/">About Don</a></li>
+              <li><a href="/expertise/">Expertise</a></li>
+              <li><a href="/podcast/">Podcast</a></li>
+              <li><a href="/youtube/">YouTube</a></li>
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/speaking/">Speaking</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="https://nsyght.com/" target="_blank" rel="noopener">NSYGHT Agency</a></li>
+              <li><a href="https://localseounlocked.buzzsprout.com/" target="_blank" rel="noopener">Local SEO Unlocked</a></li>
+              <li><a href="https://www.youtube.com/@donphelpsseo" target="_blank" rel="noopener">YouTube Channel</a></li>
+              <li><a href="/local-seo-checklist/">Local SEO Checklist</a></li>
+              <li><a href="/ai-instructions/">AI Instructions</a></li>
+              <li><a href="/llms.txt">llms.txt</a></li>
+              <li><a href="/sitemap.xml">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Don Phelps. All rights reserved.</span>
+        <span>Built with the <a href="https://nsyght.com/" target="_blank" rel="noopener" style="color: var(--fg-muted);">NSYGHT Stack</a></span>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>

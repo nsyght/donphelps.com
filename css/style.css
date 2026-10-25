@@ -669,3 +669,14 @@ section {
 .video-title { font-size: 1rem; font-weight: 600; line-height: 1.4; }
 .video-title a { color: var(--fg); }
 .video-title a:hover { color: var(--accent); }
+
+/* ─── Track record / books ─── */
+.track-list { display: flex; flex-direction: column; border-left: 2px solid var(--border); margin-top: 8px; }
+.track-item { display: grid; grid-template-columns: 72px 1fr; gap: 20px; padding: 0 0 28px 24px; position: relative; }
+.track-item::before { content: ""; position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); }
+.track-year { font-family: var(--font-display); font-size: 1.5rem; color: var(--accent); line-height: 1.2; }
+.track-title { font-weight: 700; color: var(--fg); font-size: 1.05rem; margin-bottom: 6px; }
+.track-desc { color: var(--fg-muted); line-height: 1.7; font-size: 0.95rem; }
+.book-card { display: flex; gap: 18px; align-items: center; }
+.book-spine { width: 44px; height: 62px; border-radius: 3px 6px 6px 3px; background: linear-gradient(90deg, var(--accent-dim), var(--accent)); flex-shrink: 0; box-shadow: inset 4px 0 0 rgba(0,0,0,.25); }
+@media (max-width: 600px) { .track-item { grid-template-columns: 1fr; gap: 4px; } }
