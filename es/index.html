@@ -2,18 +2,30 @@
 
 <html lang="es">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KT6FKHHKP5"></script>
+<meta charset="utf-8"/>
+<!-- Google tag (gtag.js), loaded after page load to keep the page fast -->
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-KT6FKHHKP5');
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-KT6FKHHKP5';
+        document.head.appendChild(s);
+      }, 1500);
+    });
   </script>
 <meta content="ufQlOQgwPibl_fV2yribWu7C6jNn4WZxNlO4HCIEgP0" name="google-site-verification"/>
 <meta content="8080264C070A9A70834BD8C0B328097C" name="msvalidate.01"/>
-<meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link as="font" crossorigin="" href="/fonts/inter-400.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/bebas-neue-400.woff2" rel="preload" type="font/woff2"/>
+<link href="/favicon.ico" rel="icon" sizes="any"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
 <title>Don Phelps - The SEO Guru - Experto en SEO Local, GEO y AEO</title>
 <meta content="Don Phelps es The SEO Guru, especialista en SEO local, GEO y AEO que ayuda a los negocios a dominar los resultados de búsqueda y las respuestas generadas por IA. Fundador de NSYGHT y creador del podcast Local SEO Unlocked." name="description"/>
 <link href="https://donphelps.com/es/" rel="canonical"/>
@@ -194,11 +206,11 @@
 <div>
 <p class="hero-eyebrow">The SEO Guru</p>
 <h1>Posiciónate en Google.<br/> Aparece en las <span class="accent">respuestas de IA.</span></h1>
-<p class="hero-sub">Don Phelps ayuda a los negocios a dominar la búsqueda local, ganar fragmentos destacados y ser citados por herramientas de IA como ChatGPT y Perplexity, con estrategias de SEO local, AEO y GEO que sí funcionan.</p>
-<div class="hero-actions"><a class="btn btn-primary" href="/es/contacto/">Trabaja con Don</a> <a class="btn btn-outline" href="/es/especialidades/">Ver especialidades</a></div>
+<p class="hero-sub">Don Phelps es director de SEO en FSM, fundador de NSYGHT y autor de <em>SEO with a Texas Twist</em> y <em>SEO Myths Debunked</em>. Por más de 20 años ha ayudado a los negocios a ganar el mapa, posicionarse en Google y lograr que herramientas de IA como ChatGPT y Perplexity los citen.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="/es/lista-seo-local/">Descarga gratis la lista de SEO local</a> <a class="btn btn-outline" href="/es/contacto/">Trabaja con Don</a></div>
 </div>
 <div class="hero-photo">
-<img alt="Don Phelps, The SEO Guru, Austin, Texas" fetchpriority="high" height="400" src="/images/don-phelps.jpg" width="400"/>
+<picture><source srcset="/images/don-phelps.webp" type="image/webp"/><img alt="Don Phelps, The SEO Guru, Austin, Texas" fetchpriority="high" height="400" src="/images/don-phelps.jpg" width="400"/></picture>
 </div>
 </div>
 <div class="hero-stats">
@@ -207,16 +219,16 @@
 <div class="stat-label">Años en SEO</div>
 </div>
 <div class="stat-item">
-<div class="stat-number">19<span>+</span></div>
+<div class="stat-number">8</div>
+<div class="stat-label">Industrias lideradas en FSM</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">2</div>
+<div class="stat-label">Libros publicados</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">19</div>
 <div class="stat-label">Episodios del podcast</div>
-</div>
-<div class="stat-item">
-<div class="stat-number">3<span>x</span></div>
-<div class="stat-label">Canales de búsqueda cubiertos</div>
-</div>
-<div class="stat-item">
-<div class="stat-number">1</div>
-<div class="stat-label">Metodología: The NSYGHT Stack</div>
 </div>
 </div>
 </div>
@@ -444,7 +456,7 @@
 </div>
 <div class="footer-links">
 <div class="footer-col">
-<h4>Navegación</h4>
+<p class="footer-heading">Navegación</p>
 <ul>
 <li><a href="/es/sobre-mi/">Sobre Don</a></li>
 <li><a href="/es/especialidades/">Especialidades</a></li>
@@ -456,7 +468,7 @@
 </ul>
 </div>
 <div class="footer-col">
-<h4>Recursos</h4>
+<p class="footer-heading">Recursos</p>
 <ul>
 <li><a href="https://nsyght.com/" rel="noopener" target="_blank">Agencia NSYGHT</a></li>
 <li><a href="https://localseounlocked.buzzsprout.com/" rel="noopener" target="_blank">Local SEO Unlocked</a></li>
@@ -469,7 +481,7 @@
 </div>
 </div>
 </div>
-<div class="footer-bottom"><span>© 2026 Don Phelps. Todos los derechos reservados.</span> <span>Hecho con el <a href="https://nsyght.com/" rel="noopener" style="color: var(--fg-muted);" target="_blank">NSYGHT Stack</a></span></div>
+<div class="footer-bottom"><span>© 2026 Don Phelps. Todos los derechos reservados.</span> <span>Round Rock, Texas</span></div>
 </div>
 </footer>
 </body>

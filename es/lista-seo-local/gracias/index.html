@@ -2,17 +2,29 @@
 
 <html lang="es">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KT6FKHHKP5"></script>
+<meta charset="utf-8"/>
+<!-- Google tag (gtag.js), loaded after page load to keep the page fast -->
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-KT6FKHHKP5');
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-KT6FKHHKP5';
+        document.head.appendChild(s);
+      }, 1500);
+    });
   </script>
-<meta charset="utf-8"/>
 <meta content="noindex" name="robots"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link as="font" crossorigin="" href="/fonts/inter-400.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/bebas-neue-400.woff2" rel="preload" type="font/woff2"/>
+<link href="/favicon.ico" rel="icon" sizes="any"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
 <title>Tu Lista de Verificación de SEO Local - Don Phelps</title>
 <meta content="Descarga tu lista de verificación de SEO local para imprimir de Don Phelps." name="description"/>
 <link href="https://donphelps.com/es/lista-seo-local/gracias/" rel="canonical"/>
@@ -118,7 +130,7 @@
 </div>
 <div class="footer-links">
 <div class="footer-col">
-<h4>Navegación</h4>
+<p class="footer-heading">Navegación</p>
 <ul>
 <li><a href="/es/sobre-mi/">Sobre Don</a></li>
 <li><a href="/es/especialidades/">Especialidades</a></li>
@@ -130,7 +142,7 @@
 </ul>
 </div>
 <div class="footer-col">
-<h4>Recursos</h4>
+<p class="footer-heading">Recursos</p>
 <ul>
 <li><a href="https://nsyght.com/" rel="noopener" target="_blank">Agencia NSYGHT</a></li>
 <li><a href="https://localseounlocked.buzzsprout.com/" rel="noopener" target="_blank">Local SEO Unlocked</a></li>
@@ -143,7 +155,7 @@
 </div>
 </div>
 </div>
-<div class="footer-bottom"><span>© 2026 Don Phelps. Todos los derechos reservados.</span> <span>Hecho con el <a href="https://nsyght.com/" rel="noopener" style="color: var(--fg-muted);" target="_blank">NSYGHT Stack</a></span></div>
+<div class="footer-bottom"><span>© 2026 Don Phelps. Todos los derechos reservados.</span> <span>Round Rock, Texas</span></div>
 </div>
 </footer>
 </body>

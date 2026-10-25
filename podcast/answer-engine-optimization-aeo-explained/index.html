@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT6FKHHKP5"></script>
+  <meta charset="UTF-8">
+  <!-- Google tag (gtag.js), loaded after page load to keep the page fast -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-KT6FKHHKP5');
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-KT6FKHHKP5';
+        document.head.appendChild(s);
+      }, 1500);
+    });
   </script>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/bebas-neue-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <title>Becoming the Answer: The Rise of AEO - Local SEO Unlocked Ep. 13</title>
   <meta name="description" content="What answer engine optimization is, how it differs from traditional SEO, and how to structure content to win featured snippets, voice answers and AI overviews.">
   <link rel="canonical" href="https://donphelps.com/podcast/answer-engine-optimization-aeo-explained/">
@@ -165,7 +177,7 @@
         <p class="section-eyebrow"><a href="/podcast/">Local SEO Unlocked</a> / Episode 13</p>
         <h1>Becoming the Answer: The Rise of AEO</h1>
         <div class="post-meta">
-          <img src="/images/don-phelps.jpg" alt="Don Phelps" width="44" height="44">
+          <picture><source srcset="/images/don-phelps.webp" type="image/webp"><img src="/images/don-phelps.jpg" alt="Don Phelps" width="44" height="44"></picture>
           <span><a href="/podcast/">Local SEO Unlocked</a></span>
           <span>&middot;</span>
           <time datetime="2025-07-05">July 5, 2025</time>
@@ -247,7 +259,7 @@ He even says AEO isn&#x27;t just a smart move anymore, it&#x27;s basically survi
         </div>
         <div class="footer-links">
           <div class="footer-col">
-            <h4>Navigation</h4>
+            <p class="footer-heading">Navigation</p>
             <ul>
               <li><a href="/about/">About Don</a></li>
               <li><a href="/expertise/">Expertise</a></li>
@@ -259,7 +271,7 @@ He even says AEO isn&#x27;t just a smart move anymore, it&#x27;s basically survi
             </ul>
           </div>
           <div class="footer-col">
-            <h4>Resources</h4>
+            <p class="footer-heading">Resources</p>
             <ul>
               <li><a href="https://nsyght.com/" target="_blank" rel="noopener">NSYGHT Agency</a></li>
               <li><a href="https://localseounlocked.buzzsprout.com/" target="_blank" rel="noopener">Local SEO Unlocked</a></li>
@@ -274,7 +286,7 @@ He even says AEO isn&#x27;t just a smart move anymore, it&#x27;s basically survi
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Don Phelps. All rights reserved.</span>
-        <span>Built with the <a href="https://nsyght.com/" target="_blank" rel="noopener" style="color: var(--fg-muted);">NSYGHT Stack</a></span>
+        <span>Round Rock, Texas</span>
       </div>
     </div>
   </footer>
