@@ -688,4 +688,5 @@ section {
 
 /* ─── Accessibility: underline links inside running text ─── */
 main p a:not(.btn), .faq-a a, .post-body li a { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
-.track-desc a, .episode-title a, .video-title a, .post-meta a { text-decoration: none; }
+.track-desc a { font-weight: 600; white-space: nowrap; }
+.episode-title a, .video-title a, .post-meta a { text-decoration: none; }
